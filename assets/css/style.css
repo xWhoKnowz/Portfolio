@@ -1,0 +1,53 @@
+
+.header {
+    color:#9f60e7;
+    background-color: #363a37;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    margin: 20px;
+}
+h2 {
+    margin: 20px;
+}
+.nav-1 {
+    margin: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+}
+#top-nav {
+    font-size: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.about-me {
+    width: 100%;
+    display: flex;
+}
+.work {
+    width: 100%;
+    display: flex;
+}
+.contact-me {
+    width: 100;
+    display: flex;
+}
+.nav-2{
+    margin: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+}
+#bottom-nav {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
