@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Below is the meta data contained in the head element of the html. This declares the kind of core present and the language the page is rendered in. -->
+<!-- We have 2 links to 2 different css files; reset.css which removes default browser styling -->
+<!-- We also have style.css which contains the custom styling for the web page -->
 <head>
     <title>Miah's Portfolio</title>
     <meta charset="UTF-8" />
@@ -8,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
-
+<!-- Below is the body of the web page which rendered the UI for the webpage-->
 <body>
     <header class="header">
         <h1>
@@ -16,63 +18,99 @@
         </h1>
         <nav class="nav-1">
             <ul id="top-nav">
-                <li>About Me<a href=""></a></li>
-                <li>Work<a href=""></a></li>
-                <li>Contact Me<a href=""></a></li>
+                <li>
+                    <a href="#about-me">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#work-2">
+                        Work
+                    </a>
+                </li>
+                <li>
+                    <a href="#bottom-nav">
+                        Contact Me
+                    </a>
+                </li>
                 <li>Resume<a href=""></a></li>
             </ul>
         </nav>
     </header>
     <figure>
-        <img src="https://images.unsplash.com/photo-1516490981167-dc990a242afe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-        <h3>
-        No one grows staying where they are comfortable.
-        </h3>
+        <img
+           alt="A picture of the milky way galaxy" src="https://images.unsplash.com/photo-1464802686167-b939a6910659?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <q>
+            No one grows staying where they are comfortable.
+        </q>
     </figure>
-    <main >
-        <section class="about-me">
-            <h2>About Me</h2>
+    <main>
+        <section class="about-me" id="about-me">
+            <aside>
+                <h2>About Me</h2>
+            </aside>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Hello and good day, my name is Jeremiah. I am currently enrolled in the 2023 winter SMU coding bootcamp, and I'm working hard to learn everything I can about full-stack web development. The pacing of the course is challenging as I am the kind of person who likes to take their time, but this has been a good way for me to challenge myself and grow as I work to meet strict deadlines!
             </p>
         </section>
         <section class="work">
-            <h2>Work</h2>
-            <section class="work-2">
-                <section id="work-3">           
-                    <h4>Mern Stack</h4>
-                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="mern-stack">
+            <aside>
+                <h2>Work</h2>
+            </aside>
+            <section class="work-2" id="work-2">
+                <a href="https://xwhoknowz.github.io/horiseon-accessibility-rework-challenge1/#search-engine-optimization"
+                    class="work-3">
+                    <h4 class="work-label">Mern Stack</h4>
+                </a>
+                <section class="work-4" id="node">
+                    <h4 class="work-label">Node IoT</h4>
                 </section>
-                <section class="work-4">
-                    <h4>Node</h4>
-                    <img src="https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="node">
+                <section class="work-4" id="rjs">
+                    <h4 class="work-label">React/JS/CSS</h4>
                 </section>
-                <section class="work-4">
-                    <h4>React/JavaScript/CSS</h4>
-                    <img src="https://images.unsplash.com/photo-1542213493895-edf5b94f5a96?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="rjc">
+                <section class="work-4" id="ms">
+                    <h4 class="work-label">Mern Stack</h4>
                 </section>
-                <section class="work-4">
-                    <h4>Mern Stack</h4>
-                    <img src="https://images.unsplash.com/photo-1507371341162-763b5e419408?q=80&w=1939&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="mern-stack-2">
-                </section>
-                <section class="work-4">
-                    <h4>HTML/CSS</h4>
-                    <img src="https://images.unsplash.com/photo-1491002052546-bf38f186af56?q=80&w=1816&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="hc">
+                <section class="work-4" id="hc">
+                    <h4 class="work-label">HTML/CSS</h4>
                 </section>
             </section>
         </section>
     </main>
-    <footer class="contact-me">      
+    <footer class="contact-me">
+        <aside>
             <h2>Contact Me</h2>
-            <nav>
-                <ul id="bottom-nav">
-                    <li>(xxx)xxx-xxxx<a href=""></a></li>
-                    <li>business@email.com<a href=""></a></li>
-                    <li>GitHub<a href=""></a></li>
-                    <li>Linkedn<a href=""></a></li>
-                    <li>Twitter<a href=""></a></li>
-                </ul>
-            </nav>
+        </aside>
+        <nav id="links">
+            <ul id="bottom-nav">
+                <li>
+                    <a href="">
+                        (111)222-3333
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        business@email.com
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/xWhoKnowz">
+                        GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/">
+                        Linkedin
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/?lang=en">
+                        Formerly Twitter
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </footer>
 </body>
+
 </html>
