@@ -34,7 +34,6 @@ img {
     height: 30vh;
     width: 100vw;
     object-fit: cover;
-    position: relative;
     
 }
 
@@ -43,8 +42,8 @@ q {
     color: var(--tertiary);
     background-color: var(--secondary);
     position: absolute;
-    top: 35%;
-    right: 50px;
+    bottom: 60%;
+    right: 2%;
 }
 
 p {
@@ -93,7 +92,8 @@ p {
 .about-me {
     width: 100vw;
     display: flex;
-    margin-bottom: 10px;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 .work {
