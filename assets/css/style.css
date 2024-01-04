@@ -2,11 +2,6 @@
     border: solid red;
 } */
 
-/* body{
-    display: flex;
-    flex-flow: column wrap;
-} */
-
 
 h1 {
     font-size: 250%;
@@ -27,6 +22,7 @@ h2 {
     font-size: 250%;
     color: var(--primary);
     display: flex;
+    flex-basis: 20%;
     justify-content: flex-end;
 }
 
@@ -34,7 +30,7 @@ img {
     height: 30vh;
     width: 100vw;
     object-fit: cover;
-    
+    position: relative;
 }
 
 q {
@@ -46,13 +42,15 @@ q {
     right: 2%;
 }
 
+
+
+
 p {
     height: 15vh;
     padding-left: 5px;
     padding-right: 5px;
     flex-basis: 80%;
     color: var(--tertiary);
-    font-style: bold;
     display: flex;
     align-items: center;
     border-left: solid var(--primary);
